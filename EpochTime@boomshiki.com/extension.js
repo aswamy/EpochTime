@@ -1,5 +1,3 @@
-#!/usr/bin/gjs
-
 const St = imports.gi.St;
 const Main = imports.ui.main;
 const GnomeDesktop = imports.gi.GnomeDesktop;
@@ -46,3 +44,4 @@ function _now() {
 function _copyNow() {
 	Clipboard.set_text(CLIPBOARD_TYPE, _now());
 }
+
